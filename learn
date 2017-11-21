@@ -1,5 +1,10 @@
-reset:		To change from staged to unstage
+rm --cached:	To remove from git staged.
+		(but keep file)
+
+reset:		To change from staged to unstage.
 		(can be done only on staged file)
 
-checkout: 	To unmodify a file revert it back to what it looked like when you last committed
+checkout: 	To unmodify a file revert it back to what it looked like when you last committed.
 		(can be done only on unstaged files) 
+
+pull:		git pull command to automatically fetch and then merge that remote branch into 			your current branch.
