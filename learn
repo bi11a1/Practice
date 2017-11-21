@@ -1,2 +1,5 @@
-reset = To change from staged to unstage
-checkout = To unmodify a file revert it back to what it looked like when you last committed
+reset:		To change from staged to unstage
+		(can be done only on staged file)
+
+checkout: 	To unmodify a file revert it back to what it looked like when you last committed
+		(can be done only on unstaged files) 
