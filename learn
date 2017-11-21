@@ -8,3 +8,7 @@ checkout: 	To unmodify a file revert it back to what it looked like when you las
 		(can be done only on unstaged files) 
 
 pull:		git pull command to automatically fetch and then merge that remote branch into 			your current branch.
+
+git branch: 	To check current branch
+
+git checkout abc:Switches from current branch to abc
