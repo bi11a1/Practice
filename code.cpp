@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	cout << "HELLO GIT!" << endl;
+	freopen("in.txt", "r", stdin);
 	int n;
 	while(cin >> n){
 		cout << 2*n << endl;
